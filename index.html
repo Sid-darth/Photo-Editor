@@ -2,8 +2,40 @@
 <html>
 <head>
 	<title>Photo editor!</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<meta charset="utf-8"/>
 </head>
 <body>
 
+	<div id="upload">
+		<label for="uploader">Select file: </label>
+		<input type="file" id="uploader" name="uploader">  <!--for used to link label to input's id -->
+	</div>
+
+	<div id="options">
+		<button>Greyscale</button>
+		<button>Sepia Effect</button>
+		<button>Invert</button>
+		<button>RGB > RGB</button>
+		<button>RGB > BGR</button>
+		<button>RGB > GBR</button>
+		<button>RGB > GRB</button>
+		<button>Clear</button>
+
+	</div>
+
+	<div>
+		<canvas id="canvas"></canvas>
+
+	</div>
+
+	
+
+
+	<script type="text/javascript" src="js/logic.js"></script>
+
 </body>
+
+
 </html>

@@ -1,0 +1,35 @@
+html, body{
+	/*background: url('../img/bg.jpg') no-repeat center center fixed;*/
+	/*background-size: cover; */
+	/*background-color: rgba(50,50,100,0.2)*/
+
+}
+
+#upload{
+	text-align: center;
+	background-color: rgba(0,200,230,0.3) ;
+	line-height: 3em;
+
+}
+
+#options {
+	display: flex;
+	justify-content: space-evenly;
+	margin: 2em 10px;
+	border: 1px solid rgba(0,200,100,1);
+	border-radius: 10px;
+	padding:10px;
+}
+
+button{
+	background-color: rgba(0,200,100,1);
+	border-radius: 15px;
+	width:10em;
+	padding: 10px;
+}
+
+canvas{
+	max-width: 100%;
+}
+
+
