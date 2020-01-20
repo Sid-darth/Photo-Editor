@@ -4,6 +4,7 @@ const context = canvas.getContext('2d');	//rendering context - allows to access 
 
 const reader = new FileReader(); //file reader variable allowing you to read any uploaded files
 const img = new Image(); 
+//
 
 
 

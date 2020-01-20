@@ -28,8 +28,10 @@ button{
 	padding: 10px;
 }
 
-canvas{
-	max-width: 100%;
+
+#canvas{    
+	display: flex;
+    margin: auto;
+    max-width: 71%;
+    height: auto;
 }
-
-
